@@ -24,15 +24,15 @@ export const generateColorRange = (baseColor: string) => {
       },
       {
         color: darkShade,
-        name: `20% lighter (${baseColor})`,
+        name: `20% darker (${baseColor})`,
       },
       {
         color: darkerShade,
-        name: `40% lighter (${baseColor})`,
+        name: `40% darker (${baseColor})`,
       },
       {
         color: darkestShade,
-        name: `60% lighter (${baseColor})`,
+        name: `60% darker (${baseColor})`,
       },
       {
         color: baseColor,
